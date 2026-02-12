@@ -1,0 +1,5 @@
+{
+  "application": "isotropic_remeshing",
+  "length_rel": 0.1,
+  "input": "../models/piece_0.obj"
+}

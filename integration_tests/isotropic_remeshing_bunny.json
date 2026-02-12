@@ -1,0 +1,4 @@
+{
+  "application": "isotropic_remeshing",
+  "input": "../models/Bunny.obj"
+}
