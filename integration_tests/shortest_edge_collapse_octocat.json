@@ -1,0 +1,5 @@
+{
+  "application": "shortest_edge_collapse",
+  "input": "../models/Octocat.obj",
+  "throw_on_fail": true
+}

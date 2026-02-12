@@ -1,0 +1,8 @@
+{
+  "application": "shortest_edge_collapse",
+  "input": "../models/sphere.obj",
+  "eps_rel": 1e-2,
+  "target_rel": 0.9,
+  "use_sample_envelope": true,
+  "throw_on_fail": true
+}
