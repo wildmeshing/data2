@@ -1,8 +1,6 @@
 {
   "application": "tetwild",
   "input": ["../models/sphere.obj"],
-  "filter": "none",
-  "num_threads": 0,
   "throw_on_fail": true,
   "DEBUG_hausdorff": true
 }

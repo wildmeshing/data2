@@ -1,0 +1,6 @@
+{
+  "application": "tetwild",
+  "input": ["../models/Octocat.obj"],
+  "throw_on_fail": true,
+  "DEBUG_hausdorff": true
+}
