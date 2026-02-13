@@ -1,0 +1,5 @@
+{
+    "application": "qslim",
+    "input": "../models/Octocat.obj",
+    "throw_on_fail": true
+}
