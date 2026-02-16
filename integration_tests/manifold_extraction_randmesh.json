@@ -1,0 +1,11 @@
+{
+    "application": "manifold_extraction",
+    "input": "../models/rand_mesh_1000p_robust.msh",
+    "tag_label": "winding_number_tracked",
+    "val_include": [
+        0.5,
+        1.1
+    ],
+    "manifold_union": false,
+    "DEBUG_output": false
+}
