@@ -1,4 +1,4 @@
 {
   "application": "isotropic_remeshing",
-  "input": "../models/Bunny.obj"
+  "input": "../models/bunny.obj"
 }
