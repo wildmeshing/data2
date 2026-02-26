@@ -1,0 +1,14 @@
+{
+    "application": "topological_offset",
+    "input": "../models/bunny2d.msh",
+    "tag_name": "tag_0",
+    "sep_tag_vals": [
+        1,
+        2
+    ],
+    "offset_tag_val": 3,
+    "target_distance": 3.0,
+    "relative_ball_threshold": 0.01,
+    "save_vtu": false,
+    "DEBUG_output": false
+}
