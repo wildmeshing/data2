@@ -1,0 +1,8 @@
+{
+  "application": "image_simulation",
+  "input": ["../models/bunny2d.msh"],
+  "num_threads": 0,
+  "length_rel": 0.05,
+  "eps_rel": 1e-2,
+  "stop_energy": 5
+}
