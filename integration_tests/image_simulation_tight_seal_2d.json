@@ -1,0 +1,7 @@
+{
+    "application": "image_simulation",
+    "operation": "tight_seal_topo",
+    "input": [ "../models/topo_annots.msh" ],
+    "num_threads": 0,
+    "tight_seal_tag_sets": [[1, 2, 3]]
+}

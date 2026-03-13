@@ -1,0 +1,7 @@
+{
+    "application": "image_simulation",
+    "operation": "fill_holes_topo",
+    "input": [ "../models/topo_annots.msh" ],
+    "num_threads": 0,
+    "fill_holes_tags": [2]
+}
