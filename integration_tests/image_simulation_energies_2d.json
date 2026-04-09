@@ -1,0 +1,10 @@
+{
+  "application": "image_simulation",
+  "input": ["../models/lego_separated.msh"],
+  "num_threads": 0,
+  "length": 5,
+  "eps": 0.5,
+  "stop_energy": 5,
+  "w_amips": 1e-8,
+  "w_smooth": 1e-4
+}
