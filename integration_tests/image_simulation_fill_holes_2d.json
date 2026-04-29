@@ -4,6 +4,10 @@
     "input": [ "../models/topo_annots_groups.msh" ],
     "num_threads": 0,
     "fill_holes_tags": [
-        [ 2 ]
+        [ 0 ],
+        [ 1 ],
+        [ 2 ],
+        [ 3 ],
+        [ 4 ]
     ]
 }

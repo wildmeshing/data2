@@ -1,0 +1,10 @@
+{
+    "application": "image_simulation",
+    "operation": "resolve_intersections",
+    "input": [ "../models/topo_annots_sealed.msh" ],
+    "resolve_intersections_tags": [
+        [ 1, 2 ],
+        [ 0, 1 ],
+        [ 0, 2 ]
+    ]
+}

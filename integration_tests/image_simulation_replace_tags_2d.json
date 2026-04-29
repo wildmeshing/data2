@@ -1,0 +1,9 @@
+{
+    "application": "image_simulation",
+    "operation": "replace_tags",
+    "input": [ "../models/topo_annots_sealed.msh" ],
+    "replace_tags_in": [
+        [ 1, 2 ]
+    ],
+    "replace_tags_out": [ 1 ]
+}

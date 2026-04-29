@@ -1,10 +1,14 @@
 {
     "application": "image_simulation",
-    "operation": "keep_largest_cc",
+    "operation": "keep_lcc",
     "input": [ "../models/topo_annots_groups.msh" ],
     "num_threads": 0,
-    "keep_largest_cc_tags": [
+    "keep_lcc_tags": [
         [ 0 ],
-        [ 2 ]
-    ]
+        [ 1 ],
+        [ 2 ],
+        [ 3 ],
+        [ 4 ]
+    ],
+    "keep_lcc_num": 2
 }
