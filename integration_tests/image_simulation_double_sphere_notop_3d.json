@@ -1,6 +1,6 @@
 {
     "application": "image_simulation",
-    "input": [ "sphere.obj", "sphere.obj" ],
+    "input": [ "../models/sphere.obj", "../models/sphere.obj" ],
     "input_transform": [
         [],
         [
