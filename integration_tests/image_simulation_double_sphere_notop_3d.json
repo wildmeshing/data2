@@ -1,0 +1,19 @@
+{
+    "application": "image_simulation",
+    "input": [ "sphere.obj", "sphere.obj" ],
+    "input_transform": [
+        [],
+        [
+            [ 1, 0, 0, 0.3 ],
+            [ 0, 1, 0, 0 ],
+            [ 0, 0, 1, 0 ],
+            [ 0, 0, 0, 1 ]
+        ]
+    ],
+    "skip_simplify": false,
+    "eps_simplify_rel": 1e-2,
+    "eps_rel": 1e-2,
+    "preserve_topology": false,
+    "stop_energy": 10,
+    "num_threads": 0
+}

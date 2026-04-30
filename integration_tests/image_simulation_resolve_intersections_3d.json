@@ -1,0 +1,8 @@
+{
+    "application": "image_simulation",
+    "operation": "resolve_intersections",
+    "input": [ "../models/double_sphere.msh" ],
+    "resolve_intersections_tags": [
+        [ 0, 1 ]
+    ]
+}

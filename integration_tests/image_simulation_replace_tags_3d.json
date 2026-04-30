@@ -1,0 +1,9 @@
+{
+    "application": "image_simulation",
+    "operation": "replace_tags",
+    "input": [ "../models/double_sphere.msh" ],
+    "replace_tags_in": [
+        [ 0, 1 ]
+    ],
+    "replace_tags_out": [ 2 ]
+}
