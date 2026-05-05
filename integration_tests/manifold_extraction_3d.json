@@ -1,0 +1,7 @@
+{
+    "application": "manifold_extraction",
+    "input": "../models/double_sphere_hole.msh",
+    "in_tag": [0, 1],
+    "manifold_union": false,
+    "replace_tag": []
+}
