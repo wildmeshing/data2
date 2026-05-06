@@ -1,0 +1,7 @@
+{
+    "application": "topological_offset",
+    "input": "../models/topo_annots_groups.msh",
+    "offset_tags": [[0, 2, 3], [1]],
+    "offset_output_tag": [5],
+    "target_distance": 0.25
+}
