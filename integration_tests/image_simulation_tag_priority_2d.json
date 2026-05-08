@@ -1,0 +1,6 @@
+{
+    "application": "image_simulation",
+    "operation": "tag_priority",
+    "input": [ "../models/topo_annots_sealed.msh" ],
+    "tag_priority": [ "tag_2", "tag_1", "tag_0" ]
+}
