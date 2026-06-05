@@ -1,0 +1,8 @@
+{
+  "application": "shortest_edge_collapse",
+  "input": "../models/model_101633.obj",
+  "eps_rel": 1e-3,
+  "target_rel": 0.05,
+  "use_sample_envelope": true,
+  "throw_on_fail": true
+}
