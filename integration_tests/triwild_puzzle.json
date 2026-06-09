@@ -1,0 +1,6 @@
+{
+  "application": "triwild",
+  "input": ["../models/puzzle.obj"],
+  "stop_energy": 5,
+  "DEBUG_output": false
+}
