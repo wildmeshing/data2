@@ -1,6 +1,7 @@
 {
   "application": "tetwild",
   "input": ["../models/Octocat.obj"],
+  "num_threads": 10,
   "throw_on_fail": true,
   "DEBUG_hausdorff": true
 }
