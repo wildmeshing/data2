@@ -5,5 +5,5 @@
     "replace_tags_in": [
         "tag_0 & tag_1"
     ],
-    "replace_tags_out": "tag_2"
+    "replace_tags_out": ["tag_2"]
 }
