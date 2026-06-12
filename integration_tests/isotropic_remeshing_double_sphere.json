@@ -1,0 +1,7 @@
+{
+  "application": "isotropic_remeshing",
+  "input": "../models/double_sphere.obj",
+  "length_rel": 2e-2,
+  "eps_rel": 1e-3,
+  "use_sample_envelope": true
+}

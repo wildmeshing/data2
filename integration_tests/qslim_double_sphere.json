@@ -1,0 +1,7 @@
+{
+    "application": "qslim",
+    "input": "../models/double_sphere.obj",
+    "target_rel": 0.3,
+    "eps_rel": 1e-2,
+    "throw_on_fail": true
+}
