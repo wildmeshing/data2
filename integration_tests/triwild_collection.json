@@ -1,0 +1,14 @@
+{
+  "application": "triwild",
+  "input": [
+    "../models/triwild_blob1.obj",
+    "../models/triwild_blob2.obj",
+    "../models/triwild_circle.obj",
+    "../models/triwild_ellipse.obj",
+    "../models/triwild_rectangle.obj"
+  ],
+  "input_names": ["blob1", "blob2", "circle", "ellipse", "rectangle"],
+  "stop_energy": 10,
+  "DEBUG_output": false,
+  "throw_on_fail": true
+}

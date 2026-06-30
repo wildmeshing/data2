@@ -31,7 +31,8 @@
     "topological_offset_3d_edge_input.json",
     "topological_offset_3d.json",
     "manifold_extraction_3d.json",
-    "triwild_puzzle.json"
+    "triwild_puzzle.json",
+    "triwild_collection.json"
   ],
   "unused_integration_tests": ["image_simulation_energies_2d.json"]
 }
