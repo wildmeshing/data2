@@ -1,0 +1,7 @@
+{
+  "application": "simwild",
+  "operation": "fill_holes_topo",
+  "input": ["../models/topo_annots_groups.msh"],
+  "num_threads": 0,
+  "fill_holes_tags": ["tag_0", "tag_1", "tag_2", "tag_3", "tag_4"]
+}

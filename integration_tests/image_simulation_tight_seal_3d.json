@@ -1,9 +1,0 @@
-{
-    "application": "image_simulation",
-    "operation": "tight_seal_topo",
-    "input": [ "../models/double_sphere_hole.msh" ],
-    "num_threads": 0,
-    "tight_seal_tag_sets": [
-        ["tag_0", "tag_1"]
-    ]
-}

@@ -1,5 +1,5 @@
 {
-  "application": "image_simulation",
+  "application": "simwild",
   "input": ["../models/lego_separated.msh"],
   "num_threads": 0,
   "length": 5,

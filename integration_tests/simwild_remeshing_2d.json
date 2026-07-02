@@ -1,5 +1,5 @@
 {
-  "application": "image_simulation",
+  "application": "simwild",
   "input": ["../models/bunny2d.msh"],
   "num_threads": 0,
   "length_rel": 0.05,

@@ -1,0 +1,7 @@
+{
+  "application": "simwild",
+  "operation": "replace_tags",
+  "input": ["../models/double_sphere.msh"],
+  "replace_tags_in": ["tag_0 & tag_1"],
+  "replace_tags_out": ["tag_2"]
+}

@@ -1,6 +1,0 @@
-{
-    "application": "image_simulation",
-    "operation": "tag_priority",
-    "input": [ "../models/double_sphere.msh" ],
-    "tag_priority": [ "tag_0", "tag_1" ]
-}

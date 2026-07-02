@@ -1,0 +1,10 @@
+{
+  "application": "simwild",
+  "operation": "resolve_intersections",
+  "input": ["../models/topo_annots_sealed.msh"],
+  "resolve_intersections_tags": [
+    "tag_1 & tag_2",
+    "tag_0 & tag_1",
+    "tag_0 & tag_2"
+  ]
+}

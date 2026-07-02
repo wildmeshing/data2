@@ -1,19 +1,19 @@
 {
   "_comment": "All JSONs in the list are executed as integration test for WMTK",
   "integration_tests": [
-    "image_simulation_remeshing_2d.json",
-    "image_simulation_fill_holes_2d.json",
-    "image_simulation_keep_lcc_2d.json",
-    "image_simulation_tight_seal_2d.json",
-    "image_simulation_replace_tags_2d.json",
-    "image_simulation_resolve_intersections_2d.json",
-    "image_simulation_tag_priority_2d.json",
-    "image_simulation_double_sphere_3d.json",
-    "image_simulation_double_sphere_notop_3d.json",
-    "image_simulation_tight_seal_3d.json",
-    "image_simulation_replace_tags_3d.json",
-    "image_simulation_resolve_intersections_3d.json",
-    "image_simulation_tag_priority_3d.json",
+    "simwild_remeshing_2d.json",
+    "simwild_fill_holes_2d.json",
+    "simwild_keep_lcc_2d.json",
+    "simwild_tight_seal_2d.json",
+    "simwild_replace_tags_2d.json",
+    "simwild_resolve_intersections_2d.json",
+    "simwild_tag_priority_2d.json",
+    "simwild_double_sphere_3d.json",
+    "simwild_double_sphere_notop_3d.json",
+    "simwild_tight_seal_3d.json",
+    "simwild_replace_tags_3d.json",
+    "simwild_resolve_intersections_3d.json",
+    "simwild_tag_priority_3d.json",
     "isotropic_remeshing_bunny.json",
     "isotropic_remeshing_double_sphere.json",
     "isotropic_remeshing_piece.json",
@@ -34,5 +34,5 @@
     "triwild_puzzle.json",
     "triwild_collection.json"
   ],
-  "unused_integration_tests": ["image_simulation_energies_2d.json"]
+  "unused_integration_tests": ["simwild_energies_2d.json"]
 }
