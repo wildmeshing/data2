@@ -1,6 +1,0 @@
-{
-  "application": "simwild",
-  "operation": "resolve_intersections",
-  "input": ["../models/double_sphere.msh"],
-  "resolve_intersections_tags": [["tag_0", "tag_1"]]
-}
