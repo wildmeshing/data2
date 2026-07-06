@@ -1,8 +1,8 @@
 {
     "application": "topological_offset",
     "input": "../models/double_sphere.msh",
-    "offset_tags": [["ambient"], ["tag_0"], ["tag_1"]],
-    "offset_output_tag": ["tag_2"],
+    "offset_selection": "ambient & tag_0 & tag_1",
+    "offset_output_tags": ["tag_2"],
     "target_distance": 0.2,
     "relative_ball_threshold": 0.01
 }
