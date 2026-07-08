@@ -1,7 +1,6 @@
 {
     "application": "manifold_extraction",
     "input": "../models/double_sphere_hole.msh",
-    "in_tag": ["tag_0", "tag_1"],
-    "manifold_union": false,
-    "replace_tag": ["ambient"]
+    "tag_selection": "tag_0 | tag_1",
+    "fill_tags": []
 }
