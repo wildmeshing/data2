@@ -1,0 +1,6 @@
+{
+    "application": "manifold_extraction",
+    "input": "../models/vertex_adj_tris.msh",
+    "tag_selection": "tag_0",
+    "fill_tags": []
+}
