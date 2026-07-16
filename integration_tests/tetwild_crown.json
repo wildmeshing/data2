@@ -1,0 +1,10 @@
+{
+  "application": "tetwild",
+  "input": [
+    "../models/crown.obj"
+  ],
+  "num_threads": 10,
+  "stop_energy": 100,
+  "throw_on_fail": true,
+  "DEBUG_hausdorff": true
+}
