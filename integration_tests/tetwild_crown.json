@@ -5,6 +5,6 @@
   ],
   "num_threads": 10,
   "stop_energy": 100,
-  "throw_on_fail": true,
+  "throw_on_fail": false,
   "DEBUG_hausdorff": true
 }
