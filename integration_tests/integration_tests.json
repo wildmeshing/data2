@@ -1,38 +1,212 @@
 {
-  "_comment": "All JSONs in the list are executed as integration test for WMTK",
-  "integration_tests": [
-    "simwild_remeshing_2d.json",
-    "simwild_fill_holes_2d.json",
-    "simwild_keep_lcc_2d.json",
-    "simwild_tight_seal_2d.json",
-    "simwild_replace_tags_2d.json",
-    "simwild_resolve_overlaps_2d.json",
-    "simwild_tag_priority_2d.json",
-    "simwild_double_sphere_3d.json",
-    "simwild_double_sphere_notop_3d.json",
-    "simwild_tight_seal_3d.json",
-    "simwild_replace_tags_3d.json",
-    "simwild_resolve_overlaps_3d.json",
-    "simwild_tag_priority_3d.json",
-    "isotropic_remeshing_bunny.json",
-    "isotropic_remeshing_double_sphere.json",
-    "isotropic_remeshing_piece.json",
-    "qslim_double_sphere.json",
-    "qslim_octocat.json",
-    "shortest_edge_collapse_101633.json",
-    "shortest_edge_collapse_double_sphere.json",
-    "shortest_edge_collapse_octocat.json",
-    "shortest_edge_collapse_sphere_with_env.json",
-    "tetwild_double_sphere.json",
-    "tetwild_octocat.json",
-    "tetwild_sphere.json",
-    "topological_offset_2d.json",
-    "topological_offset_2d_vertex_input.json",
-    "topological_offset_3d_edge_input.json",
-    "topological_offset_3d.json",
-    "manifold_extraction_3d.json",
-    "triwild_puzzle.json",
-    "triwild_collection.json"
-  ],
-  "unused_integration_tests": ["simwild_energies_2d.json"]
+    "_comment": "All JSONs in the list are executed as integration test for WMTK",
+    "integration_tests": [
+        {
+            "file": "simwild_remeshing_2d.json",
+            "hashes": {
+                "out.msh": "16486f44c901acce340789921ae613c4571486bb99491c2cf63040cd0217f71e"
+            }
+        },
+        {
+            "file": "simwild_fill_holes_2d.json",
+            "hashes": {
+                "out.msh": "bd2574190983aa1646148d50383373240e68ed2222426b1545f5ea92c72be5ba"
+            }
+        },
+        {
+            "file": "simwild_keep_lcc_2d.json",
+            "hashes": {
+                "out.msh": "3cf05d381899887e1c896959bb489213f46767932a4fd8231c5c3075f42f2593"
+            }
+        },
+        {
+            "file": "simwild_tight_seal_2d.json",
+            "hashes": {
+                "out.msh": "e26940c53dd559def834c455cb828ad5e923003a93f273a5b49248944964d0fa"
+            }
+        },
+        {
+            "file": "simwild_replace_tags_2d.json",
+            "hashes": {
+                "out.msh": "62fdaf13fc5e36d854bf2ee262151f2b821a7dfd7ca1febaab73c5be0a793ed0"
+            }
+        },
+        {
+            "file": "simwild_resolve_overlaps_2d.json",
+            "hashes": {
+                "out.msh": "25b8d53cd6dce4a1eba2b36b6c7bbe83b047ab405437992ad05a55bcb809c6ed"
+            }
+        },
+        {
+            "file": "simwild_tag_priority_2d.json",
+            "hashes": {
+                "out.msh": "4d59a2e0fde86870552d5667b1125d4f6f0dd7e831ac08507b64e964b54b7e80"
+            }
+        },
+        {
+            "file": "simwild_double_sphere_3d.json",
+            "hashes": {
+                "out.msh": "c24c2c6aea535c5bd6bee96100d7eee78c40e68c953cc7704b69e1eb0cdb32d3"
+            }
+        },
+        {
+            "file": "simwild_double_sphere_notop_3d.json",
+            "hashes": {
+                "out.msh": "ec2aee0ff96318abeca8dd6cc634ee714a759bd5a96d2efe77efc5a83658a53d"
+            }
+        },
+        {
+            "file": "simwild_tight_seal_3d.json",
+            "hashes": {
+                "out.msh": "99e7607814f8e155c570fa35f91a923d2c0d742418a43e7f5d8a3b4259771444"
+            }
+        },
+        {
+            "file": "simwild_replace_tags_3d.json",
+            "hashes": {
+                "out.msh": "27e8d5e83dcf19957eda3b811baac38c9c3e7a96462868c324eba051e13b16e3"
+            }
+        },
+        {
+            "file": "simwild_resolve_overlaps_3d.json",
+            "hashes": {
+                "out.msh": "3e0aff6e1e4777b136f1f1f92e4cd7edddde613a87e0463ebd857aad3bf7f09f"
+            }
+        },
+        {
+            "file": "simwild_tag_priority_3d.json",
+            "hashes": {
+                "out.msh": "8ce3919a54b92c455ef920ea76bdb695ab514c0013682ee38651ebd586784170"
+            }
+        },
+        {
+            "file": "isotropic_remeshing_bunny.json",
+            "hashes": {
+                "out.obj": "f9ced63c5efdb69f5367083cef48571cfcb076d6308aeecf030dc4854b8b1b21"
+            }
+        },
+        {
+            "file": "isotropic_remeshing_double_sphere.json",
+            "hashes": {
+                "out.obj": "34f7895775975c695695e43e9af0f87220df7391bf43b2178f79ddae3316533d"
+            }
+        },
+        {
+            "file": "isotropic_remeshing_piece.json",
+            "hashes": {
+                "out.obj": "16979aeee963c49c4ea004c1488c76b446987495c983c4fc714a33d07e0cf677"
+            }
+        },
+        {
+            "file": "qslim_double_sphere.json",
+            "hashes": {
+                "out.obj": "2774a863ee5579e037fd33255574121c222440b97da142b56674d964de7a66a0"
+            }
+        },
+        {
+            "file": "qslim_octocat.json",
+            "hashes": {
+                "out.obj": "1470c9b2b7ec52dd04860c7c47787142ceb8428ee7f0b52182a3f0b260300456"
+            }
+        },
+        {
+            "file": "shortest_edge_collapse_101633.json",
+            "hashes": {
+                "out.obj": "98f1f6c39259764dd3969f7032cdffe4d7e0be7e60a461f86f6a63697d46f0f8"
+            }
+        },
+        {
+            "file": "shortest_edge_collapse_double_sphere.json",
+            "hashes": {
+                "out.obj": "bda729db8846bb296378cfd0d8f18d80dbfb5abcd2ccb582c359e5fcb06b9864"
+            }
+        },
+        {
+            "file": "shortest_edge_collapse_octocat.json",
+            "hashes": {
+                "out.obj": "1387d4b14468c384ac4fde89d0f936350b66a4e6473dab03f1d420c30c00f7c0"
+            }
+        },
+        {
+            "file": "shortest_edge_collapse_sphere_with_env.json",
+            "hashes": {
+                "out.obj": "97f6b1f89855e136aca9ddf28e9cd3d97a3900a033d09ffd1afc887efd2ba02f"
+            }
+        },
+        {
+            "file": "tetwild_double_sphere.json",
+            "hashes": {
+                "out.vtu": "15102fc448b9b011a4cdb4b7d88cbe1bf474965a70d2a32d416e99861d3d934d",
+                "out_final.msh": "caef85a0ec23b9b0bf3b9a6ae7f560c3a2982d39a8247cb9e248f106b0ffc241",
+                "out_simplified_input.obj": "7714ae4792df8d38becc6f33063ddccfd806e04cf1af8a38f2eee963c89d4202",
+                "out_surf.vtu": "3c8c289db3b01070655ce350b4ab8a28d2a436e66ec2cec221d362c1e10a0c3a",
+                "out_surface.obj": "f435a7e468ee99ff106c79f21e7eacb543f736fe5df6c3863234763b5359cda4"
+            }
+        },
+        {
+            "file": "tetwild_octocat.json",
+            "hashes": {
+                "out.vtu": "7025deb3b1ca0b4aec8c2cff3458501a81c3017c22a829515b084ac1fdd57b8e",
+                "out_final.msh": "c8917fa3fb05ae315d9a2415bb4cbc766fd2e2ec04b7ada6013f2141aff31da5",
+                "out_simplified_input.obj": "b1d3ae6733796b75feb2caf852a64656817cc60c472985f4e7f938ffe597f502",
+                "out_surf.vtu": "7f37dfb6b6626c83f3e988874972c41d8811c4cf1b913b94050ba46730fcc0c4",
+                "out_surface.obj": "1e4b2118fff32312d77f65d10382668bc6a4a18d3b25c680f7ea79a790e0e581"
+            }
+        },
+        {
+            "file": "tetwild_sphere.json",
+            "hashes": {
+                "out.vtu": "7a0e2e839b06e72fd9e70214b706577eb17bb088aa256877028bed2ba7d8333a",
+                "out_final.msh": "284996d9ee6c3fe65353ffe545a2fad8397ed1b8d51cb778dad43cf2f7a77378",
+                "out_simplified_input.obj": "a12fe196cd31bd6c8985a1a5c2d85f04ff4d2c9ba7f97e8ac1fb6cf27e9ca411",
+                "out_surf.vtu": "b45ac24f06c57f594d40d120fbf221abb42e2c8de3178dc826d099bd750b1ad0",
+                "out_surface.obj": "a472f7308cdf4629d30c3dd5a03e8b55ed8709a2ef0468a16fb10351c68c6253"
+            }
+        },
+        {
+            "file": "topological_offset_2d.json",
+            "hashes": {
+                "out.msh": "135724a6bc558d5f85dbe85a3f78d36fe63e87f47729e1f630aa302e43db04e4"
+            }
+        },
+        {
+            "file": "topological_offset_2d_vertex_input.json",
+            "hashes": {
+                "out.msh": "916bd1b1dfe889c3fe28a32ac963d56b395990925fe70d64cff45a736417e960"
+            }
+        },
+        {
+            "file": "topological_offset_3d_edge_input.json",
+            "hashes": {
+                "out.msh": "c1aeb7f9c58ceb4ab3b5ddbd5991a36c88a17ec9b142827505349b2c8bf4697b"
+            }
+        },
+        {
+            "file": "topological_offset_3d.json",
+            "hashes": {
+                "out.msh": "6f1aae37fc3e7ff3088a18a8a55a492b57955a325e71b4d0f6ff56a05b536fcb"
+            }
+        },
+        {
+            "file": "manifold_extraction_3d.json",
+            "hashes": {
+                "out.msh": "0427cca451f681adc7c5534ba5c0acd3eee6e88f2e8d675dc2ba49b684b4230a"
+            }
+        },
+        {
+            "file": "triwild_puzzle.json",
+            "hashes": {
+                "out.msh": "7eba455e78ec176134010115c5a9f9474132e3a1f786e3fea331980fadd93bca"
+            }
+        },
+        {
+            "file": "triwild_collection.json",
+            "hashes": {
+                "out.msh": "7803a864877ff444128992c9340cd7afc2465f89521fcca88066532c8d07927d"
+            }
+        }
+    ],
+    "unused_integration_tests": [
+        "simwild_energies_2d.json"
+    ]
 }
