@@ -164,6 +164,10 @@
             }
         },
         {
+            "file": "tetwild_crown.json",
+            "hashes": {}
+        },
+        {
             "file": "topological_offset_2d.json",
             "hashes": {
                 "out.msh": "135724a6bc558d5f85dbe85a3f78d36fe63e87f47729e1f630aa302e43db04e4"
@@ -209,4 +213,8 @@
     "unused_integration_tests": [
         "simwild_energies_2d.json"
     ]
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> main
