@@ -2,7 +2,7 @@
   "application": "shortest_edge_collapse",
   "input": "../models/double_sphere.obj",
   "eps_rel": 1e-2,
-  "target_rel": 0.5,
+  "target_rel": 0.8,
   "use_sample_envelope": true,
   "throw_on_fail": true
 }
