@@ -13,7 +13,12 @@
   "eps_rel": 1e-2,
   "w_amips": 1e-4,
   "stop_energy": 10,
-  "smooth_without_envelope": false,
+  "quality_field": [
+    {
+      "tags": "_",
+      "quality": 50
+    }
+  ],
   "num_threads": 0,
   "write_vtu": false,
   "DEBUG_output": false
