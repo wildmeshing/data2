@@ -1,0 +1,8 @@
+{
+  "application": "triwild",
+  "input": ["../models/triwild_polylines.obj"],
+  "stop_energy": 20,
+  "DEBUG_euler": true,
+  "DEBUG_hausdorff": true,
+  "throw_on_fail": true
+}
