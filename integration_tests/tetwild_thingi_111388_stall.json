@@ -1,0 +1,12 @@
+{
+  "application": "tetwild",
+  "input": [
+    "../models/thingi_111388.stl"
+  ],
+  "num_threads": 0,
+  "stop_energy": 5,
+  "max_iterations": 40,
+  "max_expected_iterations": 18,
+  "DEBUG_hausdorff": true,
+  "throw_on_fail": true
+}

@@ -44,7 +44,15 @@
         "triwild20k_219409.json",
         "triwild20k_168662.json",
         "triwild20k_182771.json",
-        "triwild20k_212797.json"
+        "triwild20k_212797.json",
+        "triwild20k_185027_stall.json",
+        "triwild20k_78715_stall.json",
+        "triwild20k_184874_stall.json",
+        "triwild20k_294639_stall.json",
+        "triwild20k_172573_stall.json",
+        "tetwild_thingi_111388_stall.json",
+        "tetwild_thingi_138207_stall.json",
+        "tetwild_thingi_36075_stall.json"
     ],
     "unused_integration_tests": [
         "simwild_energies_2d.json"

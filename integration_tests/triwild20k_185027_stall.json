@@ -1,0 +1,12 @@
+{
+  "application": "triwild",
+  "input": [
+    "../models/triwild20k_185027.obj"
+  ],
+  "num_threads": 0,
+  "stop_energy": 5,
+  "max_iterations": 80,
+  "max_expected_iterations": 20,
+  "DEBUG_hausdorff": true,
+  "throw_on_fail": true
+}
