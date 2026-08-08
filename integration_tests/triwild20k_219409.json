@@ -1,0 +1,10 @@
+{
+  "application": "triwild",
+  "input": [
+    "../models/triwild20k_219409.obj"
+  ],
+  "stop_energy": 20,
+  "DEBUG_hausdorff": true,
+  "DEBUG_euler": true,
+  "throw_on_fail": true
+}

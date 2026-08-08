@@ -34,7 +34,17 @@
         "manifold_extraction_3d.json",
         "triwild_puzzle.json",
         "triwild_collection.json",
-        "triwild_polylines.json"
+        "triwild_polylines.json",
+        "tetwild_thingi_100827.json",
+        "tetwild_thingi_1344050.json",
+        "tetwild_thingi_100036.json",
+        "tetwild_thingi_366725.json",
+        "tetwild_thingi_229953.json",
+        "triwild20k_202090.json",
+        "triwild20k_219409.json",
+        "triwild20k_168662.json",
+        "triwild20k_182771.json",
+        "triwild20k_212797.json"
     ],
     "unused_integration_tests": [
         "simwild_energies_2d.json"

@@ -1,0 +1,9 @@
+{
+  "application": "tetwild",
+  "input": [
+    "../models/thingi_100827.stl"
+  ],
+  "stop_energy": 100,
+  "throw_on_fail": true,
+  "DEBUG_hausdorff": true
+}
