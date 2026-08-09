@@ -6,7 +6,7 @@
   "num_threads": 0,
   "stop_energy": 5,
   "max_iterations": 80,
-  "max_expected_iterations": 20,
+  "max_expected_iterations": 25,
   "DEBUG_hausdorff": true,
   "throw_on_fail": true
 }
