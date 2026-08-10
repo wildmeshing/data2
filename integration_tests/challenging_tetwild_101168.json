@@ -1,0 +1,14 @@
+{
+  "application": "tetwild",
+  "input": [
+    "../models/challenging_tetwild_101168.stl"
+  ],
+  "eps_rel": 0.001,
+  "filter": "none",
+  "write_vtu": false,
+  "num_threads": 0,
+  "stop_energy": 10,
+  "max_iterations": 80,
+  "throw_on_fail": true,
+  "DEBUG_hausdorff": true
+}
