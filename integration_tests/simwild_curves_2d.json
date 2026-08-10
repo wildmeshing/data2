@@ -1,0 +1,14 @@
+{
+  "application": "simwild",
+  "input": [
+    "../models/triwild_polylines.obj"
+  ],
+  "eps_rel": 0.002,
+  "stop_energy": 10,
+  "max_iterations": 40,
+  "num_threads": 0,
+  "write_vtu": false,
+  "DEBUG_output": false,
+  "preserve_topology": false,
+  "eps_simplify_rel": 0.0002
+}

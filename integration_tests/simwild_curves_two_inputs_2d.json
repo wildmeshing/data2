@@ -1,0 +1,39 @@
+{
+  "application": "simwild",
+  "input": [
+    "../models/triwild_polylines.obj",
+    "../models/triwild_polylines.obj"
+  ],
+  "input_names": [
+    "mat_a",
+    "mat_b"
+  ],
+  "input_transform": [
+    [],
+    [
+      [
+        1,
+        0,
+        300
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ]
+  ],
+  "eps_rel": 0.002,
+  "stop_energy": 20,
+  "max_iterations": 40,
+  "num_threads": 0,
+  "write_vtu": false,
+  "DEBUG_output": false,
+  "preserve_topology": false,
+  "eps_simplify_rel": 0.0002
+}

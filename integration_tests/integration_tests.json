@@ -8,6 +8,8 @@
         "simwild_replace_tags_2d.json",
         "simwild_resolve_overlaps_2d.json",
         "simwild_tag_priority_2d.json",
+        "simwild_curves_2d.json",
+        "simwild_curves_two_inputs_2d.json",
         "simwild_double_sphere_3d.json",
         "simwild_double_sphere_notop_3d.json",
         "simwild_tight_seal_3d.json",
