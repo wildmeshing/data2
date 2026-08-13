@@ -1,0 +1,18 @@
+{
+    "application": "topological_offset",
+    "input": "../models/dragon_rectangle.msh",
+    "offset_selection": "tag_3",
+    "offset_output_tags": ["offset"],
+    "target_distance_rel": 0.01,
+    "offset_out": true,
+    "convergence_target_rel": 0.001,
+    "convergence_normal_deviation": 30.0,
+    "throw_on_nonconvergence": true,
+    "max_normal_deviation_deg": 5.0,
+    "envelope_size_rel": 0.0001,
+    "relative_ball_threshold": 1e-06,
+    "length_rel": 0.01,
+    "smoothing_iterations": 2,
+    "optimization_iterations": 10,
+    "stop_energy": 5
+}
