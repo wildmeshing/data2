@@ -1,5 +1,5 @@
 {
-    "_comment": "Models that exhausted max_iterations = 80 at stop_energy 10 before wildmeshing-toolkit#997. They exercise the optimizer near its convergence limit and take minutes to hours each, so this group is hidden ([.]) and never runs in CI. Run it explicitly with ./wmtk_integration_tests \"[challenging]\". Two models from the original set, triwild20k 179282 (32 MB) and 194223 (19 MB), are omitted as too large to carry here.",
+    "_comment": "Models that exhausted max_iterations = 80 at stop_energy 10 before wildmeshing-toolkit#997. They exercise the optimizer near its convergence limit and take minutes to hours each, so this group is hidden ([.]) and never runs in CI. Run it explicitly with ./wmtk_integration_tests \"[challenging]\". Two models from the original set, triwild20k 179282 (32 MB) and 194223 (19 MB), are omitted as too large to carry here. NOTE: challenging_tetwild_46024 is different from the rest -- it does NOT pass today and is carried as a tracked open bug, so this group is expected to report one failure until it is fixed. It is the only model of 10,000 in the Thingi10K sweep that finished above stop_energy: the max energy stops improving at iteration 3 and is then IDENTICAL to 15 significant figures for the remaining 77 iterations (4.6 h). The worst element is a zero-volume sliver whose four vertices all lie on the tracked surface, on a patch where the input surface touches itself -- 5.4% of output surface faces there have area below 1e-9 against a median of 1.6e-1. Instrumenting every collapse rejection shows the blocker is geometric, not policy: of 11.8M attempts on edges below 1e-3, 71% are refused because the collapse would INVERT a tet and 25% by the surface quality veto, while the envelope and the link/topology conditions never object once. The shortest edge that cannot be collapsed is 3.9e-12. At 16 MB it is larger than anything else here; it is kept because no smaller model reproduces the deadlock and decimating it destroys the degenerate geometry that causes it.",
     "integration_tests": [
         "challenging_tetwild_101168.json",
         "challenging_tetwild_1017012.json",
@@ -14,6 +14,7 @@
         "challenging_tetwild_104509.json",
         "challenging_tetwild_1047980.json",
         "challenging_tetwild_1053397.json",
+        "challenging_tetwild_46024.json",
         "challenging_tetwild_108010.json",
         "challenging_triwild_162463.json",
         "challenging_triwild_166331.json",
