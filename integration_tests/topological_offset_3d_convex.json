@@ -1,0 +1,12 @@
+{
+    "application": "topological_offset",
+    "input": "../models/127891.msh",
+    "offset_selection": "127891",
+    "offset_output_tags": [
+        "offset"
+    ],
+    "target_distance": 1.0,
+    "relative_ball_threshold": 0.01,
+    "offset_dhat_factor": 4.0,
+    "max_iterations": 10
+}

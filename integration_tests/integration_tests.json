@@ -34,6 +34,7 @@
         "topological_offset_2d_dragon.json",
         "topological_offset_3d_edge_input.json",
         "topological_offset_3d.json",
+        "topological_offset_3d_convex.json",
         "manifold_extraction_3d.json",
         "triwild_puzzle.json",
         "triwild_collection.json",
