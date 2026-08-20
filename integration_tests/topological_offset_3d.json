@@ -4,5 +4,11 @@
     "offset_selection": "tag_0 & tag_1",
     "offset_output_tags": ["tag_2"],
     "target_distance": 0.1,
-    "relative_ball_threshold": 0.01
+    "relative_ball_threshold": 0.01,
+
+    "offset_field": "smooth",
+    "offset_gradient_rel": 0.2,
+    "offset_residual_rel": 0.1,
+    "ab_max_rounds": 10,
+    "perform_sanity_checks": true
 }
