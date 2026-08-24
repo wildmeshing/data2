@@ -1,0 +1,13 @@
+{
+    "application": "topological_offset",
+    "input": "../models/topo_annots_groups.msh",
+    "offset_selection": "tag_4",
+    "offset_output_tags": ["offset"],
+    "target_distance": 0.1,
+    "offset_field": "smooth",
+    "offset_out": false,
+    "offset_in": true,
+    "convergence_gradient_norm_rel": 0.001,
+    "perform_sanity_checks": true,
+    "num_threads": 0
+}
