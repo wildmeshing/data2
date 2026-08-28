@@ -11,6 +11,5 @@
     "envelope_size_rel": 0.0001,
     "length_rel": 0.01,
     "stop_energy": 5,
-    "num_smoothing_passes": 2,
-    "max_iterations": 10
+    "num_smoothing_passes": 2
 }
