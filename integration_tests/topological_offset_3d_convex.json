@@ -1,10 +1,14 @@
 {
     "application": "topological_offset",
-    "input": "../models/double_sphere.msh",
-    "offset_selection": "ambient & tag_0 & tag_1",
-    "offset_output_tags": ["tag_2"],
-    "target_distance": 0.2,
+    "input": "../models/127891.msh",
+    "offset_selection": "127891",
+    "offset_output_tags": [
+        "offset"
+    ],
+    "target_distance": 1.0,
     "relative_ball_threshold": 0.01,
+    "offset_dhat_factor": 4.0,
+    "preallocation_factor": 30.0,
 
     "offset_field": "smooth",
     "offset_gradient_rel": 0.2,
