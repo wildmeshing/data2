@@ -7,7 +7,7 @@
     "offset_field": "smooth",
     "offset_out": false,
     "offset_in": true,
-    "convergence_gradient_norm_rel": 0.001,
+    "phase_b_conv_rel": 0.001,
     "perform_sanity_checks": true,
     "num_threads": 0
 }

@@ -1,0 +1,13 @@
+{
+    "application": "topological_offset",
+    "input": "../models/two_overlap_crossing.msh",
+    "offset_selection": "tag_0",
+    "offset_output_tags": [
+        "offset"
+    ],
+    "protected_tags": [
+        "tag_1"
+    ],
+    "target_distance": 0.25,
+    "stop_energy": 10
+}
