@@ -9,10 +9,9 @@
     "relative_ball_threshold": 0.01,
     "offset_dhat_factor": 4.0,
     "preallocation_factor": 30.0,
-
     "offset_field": "smooth",
     "offset_gradient_rel": 0.2,
     "offset_residual_rel": 0.1,
-    "ab_max_rounds": 10,
+    "max_rounds": 10,
     "perform_sanity_checks": true
 }
