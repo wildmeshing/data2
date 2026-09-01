@@ -9,7 +9,6 @@
     "offset_field": "smooth",
     "offset_out": false,
     "offset_in": true,
-    "front_conv_rel": 0.001,
     "perform_sanity_checks": true,
     "num_threads": 0
 }
