@@ -1,5 +1,6 @@
 {
     "application": "topological_offset",
+    "throw_on_nonconvergence": true,
     "input": "../models/topo_annots_groups.msh",
     "offset_selection": "tag_0 & tag_1 & tag_2",
     "offset_output_tags": ["tag_5"],

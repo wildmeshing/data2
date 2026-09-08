@@ -1,5 +1,6 @@
 {
     "application": "topological_offset",
+    "throw_on_nonconvergence": true,
     "input": "../models/two_circles.msh",
     "offset_selection": "circle_a | circle_b",
     "offset_output_tags": [

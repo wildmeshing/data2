@@ -1,5 +1,6 @@
 {
     "application": "topological_offset",
+    "throw_on_nonconvergence": true,
     "input": "../models/two_overlap_crossing.msh",
     "offset_selection": "tag_0",
     "offset_output_tags": [
