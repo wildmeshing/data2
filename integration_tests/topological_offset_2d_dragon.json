@@ -5,7 +5,8 @@
     "offset_output_tags": [
         "offset"
     ],
-    "target_distance_rel": 0.001,
+    "target_distance_rel": 0.01,
+    "throw_on_nonconvergence": true,
     "offset_out": true,
     "min_edge_length_rel": 0.17431148549531633,
     "envelope_size_rel": 0.0001,
