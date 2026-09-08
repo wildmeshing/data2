@@ -10,6 +10,7 @@
         "topological_offset_2d_vertex_input.json",
         "topological_offset_2d_annots_tag4_in.json",
         "topological_offset_2d_dragon.json",
+        "topological_offset_2d_dragon_held.json",
         "topological_offset_2d_two_overlap.json"
     ]
 }
