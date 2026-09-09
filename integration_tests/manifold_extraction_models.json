@@ -1,0 +1,7 @@
+{
+    "_comment": "The manifold_extraction cases, run by the hidden [manifold] group of wmtk_integration_tests, not by Integration_Tests / CI.",
+    "integration_tests": [
+        "manifold_extraction_2d.json",
+        "manifold_extraction_3d.json"
+    ]
+}
