@@ -5,12 +5,14 @@
         "topological_offset_3d_convex.json"
     ],
     "integration_tests": [
-        "topological_offset_2d.json",
-        "topological_offset_2d_two_circles.json",
-        "topological_offset_2d_vertex_input.json",
-        "topological_offset_2d_annots_tag4_in.json",
-        "topological_offset_2d_dragon.json",
-        "topological_offset_2d_dragon_held.json",
-        "topological_offset_2d_two_overlap.json"
+        "circle_large_offset_absdistconv.json",
+        "square_large_offset_absdistconv.json",
+        "triangle_large_offset_absdistconv.json",
+        "circle_medium_offset_absdistconv.json",
+        "square_medium_offset_absdistconv.json",
+        "triangle_medium_offset_absdistconv.json",
+        "circle_small_offset_absdistconv.json",
+        "square_small_offset_absdistconv.json",
+        "triangle_small_offset_absdistconv.json"
     ]
 }

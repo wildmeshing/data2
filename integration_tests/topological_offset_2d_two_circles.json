@@ -1,8 +1,0 @@
-{
-    "application": "topological_offset",
-    "input": "../models/two_circles.msh",
-    "offset_selection": "circle_a | circle_b",
-    "offset_field": "smooth",
-    "target_distance": 0.15,
-    "throw_on_nonconvergence": true
-}
