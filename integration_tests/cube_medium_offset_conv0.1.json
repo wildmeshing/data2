@@ -1,5 +1,6 @@
 {
     "application": "topological_offset",
+    "throw_on_nonconvergence": true,
     "input": "../models/cube_3d.msh",
     "offset_selection": "tag_0",
     "target_distance_rel": 0.01,
