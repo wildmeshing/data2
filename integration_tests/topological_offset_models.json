@@ -1,9 +1,4 @@
 {
-    "_commented_out": [
-        "topological_offset_3d.json",
-        "topological_offset_3d_edge_input.json",
-        "topological_offset_3d_convex.json"
-    ],
     "integration_tests": [
         "circle_large_offset_absdistconv.json",
         "square_large_offset_absdistconv.json",
@@ -13,6 +8,15 @@
         "triangle_medium_offset_absdistconv.json",
         "circle_small_offset_absdistconv.json",
         "square_small_offset_absdistconv.json",
-        "triangle_small_offset_absdistconv.json"
+        "triangle_small_offset_absdistconv.json",
+        "cube_large_offset_conv0.5.json",
+        "cube_large_offset_conv0.1.json",
+        "cube_large_offset_conv0.025.json",
+        "cube_medium_offset_conv0.5.json",
+        "cube_medium_offset_conv0.1.json",
+        "cube_medium_offset_conv0.025.json",
+        "cube_small_offset_conv0.5.json",
+        "cube_small_offset_conv0.1.json",
+        "cube_small_offset_conv0.025.json"
     ]
 }

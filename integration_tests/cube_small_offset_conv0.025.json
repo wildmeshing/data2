@@ -1,0 +1,9 @@
+{
+    "application": "topological_offset",
+    "input": "../models/cube_3d.msh",
+    "offset_selection": "tag_0",
+    "target_distance_rel": 0.001,
+    "front_conv_rel": 0.025,
+    "envelope_size_rel": 0.0001,
+    "min_sizing_scalar": 0.001
+}
