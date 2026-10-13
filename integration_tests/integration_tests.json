@@ -1,6 +1,7 @@
 {
     "_comment": "All JSONs in the list are executed as integration test for WMTK",
     "integration_tests": [
+        "cad_remeshing_rings.json",
         "simwild_remeshing_2d.json",
         "simwild_fill_holes_2d.json",
         "simwild_keep_lcc_2d.json",
