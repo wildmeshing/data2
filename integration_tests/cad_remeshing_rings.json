@@ -1,0 +1,5 @@
+{
+  "application": "cad_remeshing",
+  "input": "../models/rings.msh",
+  "patches": "../models/rings_features.json"
+}
