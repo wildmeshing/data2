@@ -1,0 +1,9 @@
+{
+    "application": "topological_offset",
+    "throw_on_nonconvergence": true,
+    "input": "../models/square_2d.msh",
+    "offset_selection": "tag_0",
+    "target_distance_rel": 0.001,
+    "envelope_size_rel": 0.0001,
+    "front_conv_criterion": "residual_error"
+}
