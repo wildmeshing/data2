@@ -3,6 +3,7 @@
   "input": ["../models/crown.obj"],
   "num_threads": 10,
   "stop_energy": 100,
+  "simplify_use_sample_envelope": true,
   "throw_on_fail": true,
   "DEBUG_hausdorff": true
 }
