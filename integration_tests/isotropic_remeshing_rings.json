@@ -1,0 +1,8 @@
+{
+  "application": "isotropic_remeshing",
+  "input": "../models/rings.msh",
+  "features": "../models/rings_iso_features.json",
+  "length_rel": 0.05,
+  "eps_rel": 6.5e-4,
+  "use_sample_envelope": true
+}
