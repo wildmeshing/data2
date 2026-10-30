@@ -1,0 +1,10 @@
+{
+  "application": "simwild",
+  "operation": "tight_seal_geom",
+  "input": ["../models/double_sphere_hole.msh"],
+  "num_threads": 0,
+  "tight_seal_geom_tags": ["tag_0", "tag_1"],
+  "tight_seal_geom_distance": 0.5,
+  "tight_seal_geom_growth": false,
+  "tight_seal_geom_sanity": true
+}

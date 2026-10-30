@@ -1,0 +1,9 @@
+{
+  "application": "simwild",
+  "operation": "tight_seal_geom",
+  "input": ["../models/lego_separated.msh"],
+  "num_threads": 0,
+  "tight_seal_geom_selection": "detected",
+  "tight_seal_geom_distance": 3,
+  "tight_seal_geom_sanity": true
+}
