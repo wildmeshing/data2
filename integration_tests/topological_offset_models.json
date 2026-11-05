@@ -1,5 +1,15 @@
 {
+    "_comment": "The topological_offset cases, run by the hidden [offset] group of wmtk_integration_tests, not by CI. Every case here must finish in minutes. The 2D cases are parked in _commented_out while the offset refuses 2D input (wildmeshing-toolkit f8a38aee26); move them back when the 2D offset returns.",
     "integration_tests": [
+        "cube_large_offset_conv0.5.json",
+        "cube_large_offset_conv0.1.json",
+        "cube_large_offset_conv0.025.json",
+        "cube_medium_offset_conv0.5.json",
+        "cube_medium_offset_conv0.1.json",
+        "cube_medium_offset_conv0.025.json",
+        "cube_small_offset_conv0.5.json"
+    ],
+    "_commented_out": [
         "circle_large_offset_absdistconv.json",
         "square_large_offset_absdistconv.json",
         "triangle_large_offset_absdistconv.json",
@@ -8,15 +18,6 @@
         "triangle_medium_offset_absdistconv.json",
         "circle_small_offset_absdistconv.json",
         "square_small_offset_absdistconv.json",
-        "triangle_small_offset_absdistconv.json",
-        "cube_large_offset_conv0.5.json",
-        "cube_large_offset_conv0.1.json",
-        "cube_large_offset_conv0.025.json",
-        "cube_medium_offset_conv0.5.json",
-        "cube_medium_offset_conv0.1.json",
-        "cube_medium_offset_conv0.025.json",
-        "cube_small_offset_conv0.5.json",
-        "cube_small_offset_conv0.1.json",
-        "cube_small_offset_conv0.025.json"
+        "triangle_small_offset_absdistconv.json"
     ]
 }
