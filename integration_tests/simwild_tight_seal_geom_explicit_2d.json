@@ -1,9 +1,9 @@
 {
   "application": "simwild",
   "operation": "tight_seal_geom",
-  "input": ["../models/topo_annots_groups.msh"],
+  "input": ["../models/tight_seal_geom_bars_2d.msh"],
   "num_threads": 0,
-  "tight_seal_geom_tags": ["tag_0", "tag_1", "tag_4"],
-  "tight_seal_geom_distance": 5,
+  "tight_seal_geom_tags": ["tag_0", "tag_1", "tag_2"],
+  "tight_seal_geom_distance": 1,
   "tight_seal_geom_sanity": true
 }
