@@ -3,7 +3,9 @@
   "operation": "tight_seal_geom",
   "input": ["../models/double_sphere_hole.msh"],
   "num_threads": 0,
-  "tight_seal_geom_tags": ["tag_0", "tag_1"],
+  "tight_seal_geom_input_selection": "tag_0 | tag_1",
+  "tight_seal_geom_fill_selections": ["tag_0", "tag_1"],
+  "tight_seal_geom_fill_tags": [["tag_0"], ["tag_1"]],
   "tight_seal_geom_distance": 0.35,
   "tight_seal_geom_sanity": true
 }
