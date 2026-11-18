@@ -1,0 +1,9 @@
+{
+  "application": "simwild",
+  "input": [
+    "../models/simwild_80_tags_3d.msh"
+  ],
+  "num_threads": 0,
+  "eps_rel": 0.01,
+  "stop_energy": 10
+}

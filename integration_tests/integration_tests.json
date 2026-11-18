@@ -3,6 +3,7 @@
     "integration_tests": [
         "isotropic_remeshing_rings.json",
         "simwild_remeshing_2d.json",
+        "simwild_80_tags_3d.json",
         "simwild_fill_holes_2d.json",
         "simwild_keep_lcc_2d.json",
         "simwild_tight_seal_2d.json",
