@@ -1,11 +1,11 @@
 {
   "application": "simwild",
   "operation": "tight_seal_geom",
-  "input": ["../models/lego_separated.msh"],
+  "input": ["../models/tight_seal_geom_bars_2d.msh"],
   "num_threads": 0,
   "tight_seal_geom_input_selection": "!_",
   "tight_seal_geom_fill_selections": ["tag_0", "tag_1", "tag_2"],
   "tight_seal_geom_fill_tags": [["tag_0"], ["tag_1"], ["tag_2"]],
-  "tight_seal_geom_distance": 3,
+  "tight_seal_geom_distance": 1,
   "tight_seal_geom_sanity": true
 }
